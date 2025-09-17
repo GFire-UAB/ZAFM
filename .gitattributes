@@ -1,0 +1,2 @@
+src/*.py linguist-language=Python
+media/* linguist-vendored
