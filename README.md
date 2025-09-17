@@ -60,7 +60,7 @@ Steps:
 
 2. **Alignment** of both maps by computing their overlap and forcing the same grid size and resolution.  
 
-In the scientific article (DOI above), homogenization was performed with GDAL commands, but here it is implemented directly in **Python** for ease of execution.  
+In the scientific article (DOI above), homogenization was performed with GDAL commands, but here it is implemented directly in **Python** for an easier of execution.  
 
 ---
 
