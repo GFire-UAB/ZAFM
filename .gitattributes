@@ -1,2 +1,2 @@
-src/*.py linguist-language=Python
-media/* linguist-vendored
+*.py linguist-language=Python
+
