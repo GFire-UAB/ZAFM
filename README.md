@@ -81,10 +81,9 @@ The ZAFM algorithm assigns a fuel model to every cell in the final map.
 
 The following figures show the final map obtained by applying ZAFM to the case study, along with the two input maps used:
 
-![png](media/fireurisk.png)  
-![png](media/wcm.png)  
-![png](media/zafm.png)  
-
+<img src="media/fireurisk.png" alt="Fireurisk" width="300">
+<img src="media/wcm.png" alt="WCM" width="300">
+<img src="media/zafm.png" alt="ZAFM" width="300">
 ---
 
 ## Global Implementation  
