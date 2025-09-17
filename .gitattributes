@@ -1,2 +1,8 @@
 *.py linguist-language=Python
+media/* linguist-vendored
+data/* linguist-vendored
+output/* linguist-vendored
+src/*.py linguist-language=Python
+*.py linguist-language=Python
+
 
