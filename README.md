@@ -5,7 +5,8 @@ If you publish results using our **ZAFM algorithm**, please acknowledge our work
 > Sánchez, P., González, I., Carrillo, C. et al. *Zone adaptive fuel mapping for high resolution wildfire spread forecasting.* **Sci Rep** 15, 22254 (2025).  
 > https://doi.org/10.1038/s41598-025-06402-1
 
-This work is part of the project CPP2021-008762 and has been financed by MCIN/AEI/10.13039/501100011033 and the European Union-\textit{NextGenerationEU}/PRTR.
+This work is part of the project **CPP2021-008762** and has been financed by MCIN/AEI/10.13039/501100011033 and the European Union *NextGenerationEU*/PRTR.
+
 
 # ZAFM  
 
