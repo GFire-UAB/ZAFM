@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zafm"
+version = "2.0.0"
+description = "Zone-Adaptive Fuel Mapping (ZAFM) with bioclimatic regimes and windowed processing"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "GPL-3.0"}
+authors = [{name = "GFire-UAB"}]
+dependencies = [
+  "numpy",
+  "rasterio",
+  "scipy",
+  "geopandas",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

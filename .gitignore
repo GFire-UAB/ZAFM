@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+venv/
+.env/
+
+# Large rasters / outputs
+data/input/*.tif
+data/input/*.tiff
+output/*.tif
+output/*.tiff
+output/*.asc
+
+# GIS sidecars
+*.aux.xml
+*.ovr
+
+# OS
+.DS_Store
+Thumbs.db
