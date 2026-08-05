@@ -43,11 +43,7 @@ Dynamic World provides a `label` band with integer categorical values from
 | 7 | Bare ground |
 | 8 | Snow and ice |
 
-The script does **not** calculate the arithmetic mean of these class codes.
-An average such as `(1 + 4) / 2 = 2.5` has no meaningful land-cover
-interpretation.
-
-Instead, it calculates the **pixel-wise temporal mode** of the `label` band:
+The script calculates the **pixel-wise temporal mode** of the `label` band:
 for every 10 m pixel, the class occurring most frequently among the valid
 Dynamic World observations in the selected period is retained. Clouds and
 cloud shadows are already masked in the source collection. When several
