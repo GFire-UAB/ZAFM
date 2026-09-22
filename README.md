@@ -153,6 +153,53 @@ One GeoTIFF per region is produced:
 ### Greece
 ![Greece fuel map](media/GRE.png)
 
+## Validation
+
+The published ZAFM fuel-map datasets were independently evaluated using
+LUCAS 2022 field-reference observations across Spain, France, Italy, Greece,
+and Portugal.
+
+A total of **475 spatially distributed validation points** were retained
+after applying spatial, thematic, observational, and temporal-stability
+filters. Validation was performed at the level of the main Scott and Burgan
+fuel groups:
+
+- **NB** — non-burnable
+- **GR** — grass
+- **SH** — shrub
+- **TU** — timber-understory
+- **TL** — timber-litter
+
+Using the same validation points and fuel-group definitions, the overall
+accuracies were:
+
+| Dataset | Overall accuracy |
+|---|---:|
+| ZAFM-WCM | **56.4% (268/475)** |
+| ZAFM-DW | **61.7% (293/475)** |
+
+The complete validation subset, including point coordinates, reference fuel
+groups, and the corresponding ZAFM-WCM and ZAFM-DW assignments, is available
+in the [`validation/`](validation/) directory.
+
+The validation directory also contains the GIS point layer and documentation
+describing the reference classes and data provenance.
+
+The validation data constitute a **derived subset of the LUCAS 2022 survey**
+provided by Eurostat. The original LUCAS 2022 microdata and field photographs
+are available from the official Eurostat LUCAS database:
+
+https://ec.europa.eu/eurostat/web/lucas/database/2022
+
+The original LUCAS photographs are **not redistributed** in this repository.
+They were used only to support the interpretation of woodland reference
+locations into the broader timber-understory (TU) and timber-litter (TL)
+fuel groups.
+
+For the complete validation methodology, class-specific results, confusion
+matrices, and comparison with FirEUrisk, please refer to the associated
+ZAFM Data Descriptor.
+
 ## Required input datasets and citation
 
 ### Reference fuel map
