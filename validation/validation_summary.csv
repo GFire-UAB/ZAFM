@@ -1,0 +1,3 @@
+dataset,correct,total,overall_accuracy_percent
+ZAFM-WCM,268,475,56.4
+ZAFM-DW,293,475,61.7
